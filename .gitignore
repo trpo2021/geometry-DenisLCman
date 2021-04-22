@@ -1,0 +1,11 @@
+*.o
+.main.c.swp
+main.c~
+main
+*#
+.#*
+*.~
+makefile~
+obj/geometrylib.a
+*.txt
+
