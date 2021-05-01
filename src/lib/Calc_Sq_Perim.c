@@ -7,8 +7,8 @@
 double Calc_Sq_Perim(double RShape, int type)
 {
     if (type == 1) {
-        return PI * RShape * RShape;
+        return M_PI * RShape * RShape;
     } else {
-        return PI * 2 * RShape;
+        return M_PI * 2 * RShape;
     }
 }

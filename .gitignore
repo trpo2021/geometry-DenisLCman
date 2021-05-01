@@ -6,6 +6,7 @@ main
 .#*
 *.~
 makefile~
-obj/geometrylib.a
+*.a
 *.txt
+bin/test
 

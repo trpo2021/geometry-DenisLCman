@@ -50,7 +50,7 @@ clean:
 	find . -name "*.d" -exec rm {} \;
 	find . -name "*.o" -exec rm {} \;
 	find . -name "*.a" -exec rm {} \;
-	find . -name "main" -exec rm {} \;
-	find . -name "test" -exec rm {} \;
+	rm bin/main
+	rm bin/test
 
 .PHONY: clean run all
