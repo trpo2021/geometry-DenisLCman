@@ -1,0 +1,12 @@
+*.o
+.main.c.swp
+main.c~
+main
+*#
+.#*
+*.~
+makefile~
+*.a
+*.txt
+bin/test
+
